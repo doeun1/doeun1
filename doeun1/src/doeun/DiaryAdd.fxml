@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Pane fx:id="day" prefHeight="32.0" prefWidth="700.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false">
+               <graphic>
+                  <Label text="일자" />
+               </graphic>
+            </Button>
+         </children>
+      </Pane>
+   </top>
+   <left>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="38.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ReView" wrappingWidth="136.8994140625">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true" />
+            <TextArea layoutY="240.0" prefHeight="200.0" prefWidth="200.0" />
+            <Text layoutX="14.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title" />
+            <Text layoutX="12.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Author" />
+            <Text layoutX="11.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" text="date" />
+            <Text layoutX="10.0" layoutY="415.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rate" />
+            <TextField layoutX="64.0" layoutY="269.0" prefHeight="29.0" prefWidth="129.0" />
+            <TextField layoutX="64.0" layoutY="312.0" prefHeight="29.0" prefWidth="129.0" />
+            <TextField layoutX="64.0" layoutY="353.0" prefHeight="29.0" prefWidth="129.0" />
+            <TextField layoutX="64.0" layoutY="393.0" prefHeight="29.0" prefWidth="129.0" />
+         </children>
+      </Pane>
+   </left>
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

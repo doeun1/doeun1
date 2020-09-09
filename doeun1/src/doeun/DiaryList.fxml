@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="doeun.DiaryController">
+   <center>
+      <TableView fx:id="tableView" prefHeight="250.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn prefWidth="150.0" text="일자" />
+          <TableColumn prefWidth="200.0" text="책제목" />
+            <TableColumn prefWidth="150.0" text="작가" />
+            <TableColumn prefWidth="250.0" text="심플평" />
+        </columns>
+      </TableView>
+   </center>
+   <bottom>
+      <AnchorPane BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnAdd" layoutX="689.0" mnemonicParsing="false" text="등록" />
+            <Button fx:id="btnDel" layoutX="746.0" mnemonicParsing="false" text="삭제" />
+         </children>
+      </AnchorPane>
+   </bottom>
+   <top>
+      <TextField text="BookDiary  ༼ʘ̅͜ʘ̅༽'☂ " BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>
